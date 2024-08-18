@@ -1,0 +1,16 @@
+.nav-link-active {
+  color: #DFD0B8;
+  border-radius: 0;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link-inactive {
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.nav-link-inactive:hover {
+  background-color: inherit;
+  color: #DFD0B8;
+  transition: color 0.3s;
+}
