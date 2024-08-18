@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div classNameName="container mx-auto min-h-[calc(100vh-120px)] ">
-      <section className="px-5 w-fit mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm-grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-16 mt-5 mb-5">
+      <section className="px-10 w-fit mx-auto grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm-grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-16 mt-10 mb-5">
         {responseData &&
           responseData.map((data) => (
             <div
