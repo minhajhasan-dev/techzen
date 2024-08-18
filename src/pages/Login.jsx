@@ -50,11 +50,11 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-blue-50">
+    <div className="flex justify-center items-center min-h-screen bg-[#A91D3A]">
       <div
         data-aos="zoom-in-down"
         data-aos-duration="1000"
-        className="flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-white shadow-lg"
+        className="flex flex-col max-w-md p-6 rounded-xl sm:p-10 bg-white shadow-lg"
       >
         <div className="mb-8 text-center">
           <h1 className="my-3 text-4xl font-bold text-blue-600">Log In</h1>
